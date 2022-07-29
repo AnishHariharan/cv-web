@@ -136,13 +136,13 @@ span{
   left:
 }
 .middle{
-    border-style: none;
-    border-top-style: dotted;
-    position: relative;
-    top: 850px;
-    border-color: #B270A2;
-    border-width: 5px;
-    width: 10%;
+  border-style: none;
+  border-top-style: dotted;
+  position: relative;
+  top: 380px;
+  border-color: #B270A2;
+  border-width: 5px;
+  width: 10%;
 }
 .final{
   background-color: #FF8FB1;
