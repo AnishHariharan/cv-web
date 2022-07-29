@@ -48,27 +48,24 @@ span{
   text-decoration: underline;
 }
 #dp{
-  position: absolute;
-  border-radius: 50%;
+  position: relative;
+  top:700px;
   height: 100px;
   width: 100px;
-  top: 700px;
 }
 .greet{
   color: #B270A2;
-  position: absolute;
-  top:780px;
-  left:660px;
+  position: relative;
+  top:700px;
   font-family:Sacramento;
   font-size: 30px;
 }
 .intro{
   color: #B270A2;
   font-size: 20px;
-  position: absolute;
-  top: 850px;
-  left: 500px;
-  right: 400px;
+  font-stretch: condensed;
+  position: relative;
+  top: 750px;
   bottom: 100px;
 }
 .intro:hover{
@@ -77,9 +74,8 @@ span{
 .top{
     border-style: none;
     border-top-style: dotted;
-    position: absolute;
-    top: 1000px;
-    left: 620px;
+    position: relative;
+    top: 850px;
     border-color: #B270A2;
     border-width: 5px;
     width: 10%;
