@@ -3,24 +3,20 @@
   font-family:Sacramento,serif;
   font-size: 60px;
   font-weight: normal;
-  position:absolute;
-  top: 100px;
-  left: 500px;
+  position: relative;
+  margin: 100px auto 0 auto;
 }
 #heading:hover{
   color: #F73D93;
 }
 .firstcontainer{
   background-color: #FCE2DB;
-  height: 610px;
   width: 100%;
   position: absolute;
   top:0px;
-  bottom: 0px;
 }
 .middlecontainer{
   background-color: white;
-  height: 1000px;
   width: 100%;
   padding-bottom: 100px;
 }
@@ -29,44 +25,38 @@
 #dev{
   font-family:cursive;
   color:#B270A2;
-  position: absolute;
-  top:200px;
-  left:600px;
+  position: relative;
+  line-height: 1;
 }
 body{
   text-align: center;
   margin: 0;
 }
 #image{
-  position: absolute;
+  position: relative;
+  margin: 80px auto 0 auto;
+  padding-bottom: 20px;
   height: 300px;
   width: 300px;
-  left:500px;
-  bottom: 10px;
 }
 span{
   text-decoration: underline;
 }
 #dp{
   position: relative;
-  top:700px;
-  height: 100px;
-  width: 100px;
+  height:10%;
+  width: 10%;
 }
 .greet{
   color: #B270A2;
   position: relative;
-  top:700px;
   font-family:Sacramento;
   font-size: 30px;
 }
 .intro{
   color: #B270A2;
   font-size: 20px;
-  font-stretch: condensed;
-  position: relative;
-  top: 750px;
-  bottom: 100px;
+  margin: 100px auto 100px auto;
 }
 .intro:hover{
   color: #F73D93;
@@ -75,7 +65,6 @@ span{
     border-style: none;
     border-top-style: dotted;
     position: relative;
-    top: 850px;
     border-color: #B270A2;
     border-width: 5px;
     width: 10%;
@@ -83,63 +72,58 @@ span{
 .skill{
   color: #B270A2;
   position: absolute;
-  top: 1100px;
   left: 10px;
   text-decoration:underline;
   font-family: Sacramento;
   font-size: 60px;
+  margin:0px auto 10px 0px
 }
 .skill:hover{
   color: #F73D93;
 }
 .logop{
-  position: absolute;
-  top:1350px;
-  left:200px;
+  position: relative;
   height: 100px;
   width: 100px;
+  float: left;
 }
 .logos{
-  position: absolute;
-  top:1350px;
-  left: 400px;
+  position: relative;
+  border: 0px auto 0px auto;
   height: 100px;
   width: 100px;
 }
 .logoh{
-  position: absolute;
-  top:1350px;
-  left: 600px;
+  position: relative;
+  border: 0px auto 0px auto;
   height: 100px;
   width: 100px;
 }
 .skip{
   color: #B270A2;
-  position: absolute;
+  position: relative;
+  left: 100px;
   font-size: 20px;
-  top: 1450px;
-  left:220px;
+  border: 10px;
 }
 .skis{
   color: #B270A2;
-  position: absolute;
+  position: relative;
+  left: 100px;
   font-size: 20px;
-  top: 1450px;
-  left:450px;
+  border: 0px auto 0px auto;
 }
 .skih{
   color: #B270A2;
-  position:absolute;
+  position:relative;
+  left: 100px;
   font-size: 20px;
-  left: 620px;
-  top: 1450px;
-  left:
+  border: 0px auto 0px auto;
 }
 .middle{
   border-style: none;
   border-top-style: dotted;
   position: relative;
-  top: 380px;
   border-color: #B270A2;
   border-width: 5px;
   width: 10%;
@@ -148,8 +132,7 @@ span{
   background-color: #FF8FB1;
   height: 200px;
   width: 100%;
-  position: absolute;
-  top:1600px;
+  position: relative;
 }
 .contact{
   color: white;
@@ -160,4 +143,33 @@ span{
   color: white;
   font-size: 20px;
   font-family: cursive;
+}
+.main{
+position: relative;
+height: 800px;
+width: 100%;
+}
+.maint{
+position: relative;
+height: 600px;
+width: 100%;
+}
+.pytab{
+position: relative;
+top:150px;
+left: 100px;
+}
+.mains{
+height: 600px;
+width: 100%;
+}
+.sytab{
+position: relative;
+top: 200px;
+left:100px;
+}
+.hytab{
+position: relative;
+top: 250px;
+left:100px;
 }
