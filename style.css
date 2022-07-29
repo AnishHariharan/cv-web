@@ -138,10 +138,8 @@ span{
 .middle{
     border-style: none;
     border-top-style: dotted;
-    position: absolute;
-    top: 1500px;
-    left: 620px;
-    padding-bottom: 100px;
+    position: relative;
+    top: 850px;
     border-color: #B270A2;
     border-width: 5px;
     width: 10%;
